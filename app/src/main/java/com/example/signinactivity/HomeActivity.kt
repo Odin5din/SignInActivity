@@ -3,9 +3,11 @@ package com.example.signinactivity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
+import android.graphics.Color
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 
 
 class HomeActivity : AppCompatActivity() {
@@ -41,7 +43,10 @@ class HomeActivity : AppCompatActivity() {
         if (!id.isNullOrBlank()) {
             textViewId.text = "아이디 : $id"
         }
-    }
+
+
+        }
+
     fun onGoBackButtonClick(view: View) {
 
 
